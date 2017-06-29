@@ -5,9 +5,9 @@
 
     session_start();
 
-    // if(empty($_SESSION['person_info'])) {
-    //     $_SESSION['person_info'] = array();
-    // }
+    if(empty($_SESSION['person_info'])) {
+        $_SESSION['person_info'] = array();
+    }
 
     if(empty($_SESSION['list_of_jobs'])) {
         $_SESSION['list_of_jobs'] = array();
